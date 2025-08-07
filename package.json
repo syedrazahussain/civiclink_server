@@ -12,8 +12,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "axios": "^1.7.7",
-    "bcrypt": "^5.1.1",
     "body-parser": "^1.20.3",
     "bson": "^6.9.0",
     "concurrently": "^9.1.0",

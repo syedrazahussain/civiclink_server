@@ -1,5 +1,6 @@
 const AdminRegisterModel = require('../models/AdminRegister')
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs')
+
 const jwt = require('jsonwebtoken');
 
 const CreateContractorModel = require('../models/Createcontractor');

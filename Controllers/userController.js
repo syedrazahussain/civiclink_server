@@ -1,5 +1,6 @@
 const RegisterModel = require('../models/Register')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
+
 const jwt = require('jsonwebtoken')
 
 

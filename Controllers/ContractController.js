@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 const jwt = require('jsonwebtoken');
 const CreateContractorModel = require("../models/Createcontractor");
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcryptjs')
+
 
 const logincontractorcontroller = async (req, res) => {
     try {
